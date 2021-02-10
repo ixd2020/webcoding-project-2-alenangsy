@@ -44,7 +44,8 @@ nav a {
 }
 
 .divider {
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
 }
 
@@ -54,21 +55,17 @@ nav a {
   margin: auto;
   transition: 0.3s;
 }
-bestof2020box: hover{
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
 
 .newsfeedbigbox {
   display: flex;
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
 }
 
 .newsfeedbar {
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -127,24 +124,28 @@ bestof2020box: hover{
 }
 
 .largebox {
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
 }
 .large1 {
   display: flex;
   text-align: left;
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
 }
 .large2 {
   display: flex;
   text-align: left;
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin-top: 20px;
 }
 .large3 {
   display: flex;
   text-align: left;
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin-top: 20px;
 }
 .largetext {
@@ -165,13 +166,15 @@ bestof2020box: hover{
 }
 
 .featuredbox {
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
   display: flex;
   text-align: left;
 }
 .arrowbar {
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
 }
 .arrowbutton {
@@ -182,7 +185,8 @@ bestof2020box: hover{
   margin: auto;
   display: flex;
   text-align: left;
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
 }
 
 .footerdis li {
@@ -190,7 +194,8 @@ bestof2020box: hover{
 }
 
 .privacy {
-  width: 1047px;
+  width: 100%;
+  max-width: 1047px;
   margin: auto;
   display: flex;
   justify-content: space-between;
