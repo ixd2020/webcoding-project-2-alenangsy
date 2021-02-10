@@ -1,0 +1,246 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #424242;
+    letter-spacing: .28px;
+}
+
+
+nav {
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1047px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 1em 2em 1em;
+}
+
+.errornav li {
+  padding: 0 1em 0em 1em;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  width: 1047px;
+  margin: auto;
+}
+
+.bestof2020box {
+  width: 100%;
+  max-width: 1047px;
+  margin: auto;
+  transition: 0.3s;
+}
+bestof2020box: hover{
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.newsfeedbigbox {
+  display: flex;
+  width: 1047px;
+  margin: auto;
+}
+
+.newsfeedbar {
+  width: 1047px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+}
+.newsfeed {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.morenews {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.newsfeedleft {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  padding: 0px 20px 0px 0px;
+}
+
+.newsfeedright {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  padding: 0px 20px 0px 40px;
+}
+
+.newsfeeddate {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 400;
+}
+.newsfeedtittle {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -30px;
+}
+.newsfeedpic {
+  display: flex;
+  justify-content: flex-start;
+}
+.newsfeedtext {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.signup {
+  float: right;
+}
+
+.largebox {
+  width: 1047px;
+  margin: auto;
+}
+.large1 {
+  display: flex;
+  text-align: left;
+  width: 1047px;
+}
+.large2 {
+  display: flex;
+  text-align: left;
+  width: 1047px;
+  margin-top: 20px;
+}
+.large3 {
+  display: flex;
+  text-align: left;
+  width: 1047px;
+  margin-top: 20px;
+}
+.largetext {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.middletext {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.tinytext {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 400;
+  width: 50%;
+}
+
+.featuredbox {
+  width: 1047px;
+  margin: auto;
+  display: flex;
+  text-align: left;
+}
+.arrowbar {
+  width: 1047px;
+  margin: auto;
+}
+.arrowbutton {
+  float: right;
+}
+
+.footer {
+  margin: auto;
+  display: flex;
+  text-align: left;
+  width: 1047px;
+}
+
+.footerdis li {
+  list-style-type: none;
+}
+
+.privacy {
+  width: 1047px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+}
+.privacylogo {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.privacyterms {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.resources {
+  width: 1047px;
+  margin: auto;
+}
+
+.medium {
+  width: 30%;
+}
+
+.icon {
+  float: right;
+}
+
+.mediumright {
+  width: 70%;
+}
+
+.supporting {
+  width: 1047px;
+  margin: auto;
+}
+@media screen and (max-width:768px) {
+
+  .webnav {
+    display: none;
+  }
+
+  .mobilenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobilenav li {
+    margin: 0 1em;
+  }
+
